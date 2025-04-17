@@ -208,7 +208,6 @@ async function scrapeWebsite(url) {
             headless: 'new',
             args: ['--no-sandbox', '--disable-setuid-sandbox'],
             defaultViewport: null,
-            executablePath:"/usr/bin/google-chrome-stable"
         });
 
         const page = await browser.newPage();
